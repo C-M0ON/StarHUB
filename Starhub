@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
-local Window = Library.CreateLib("starHUB", "DarkTheme")
+local Window = Library.CreateLib("starHUB | V1", "DarkTheme")
 local Tab = Window:NewTab("main")
 local Section = Tab:NewSection("main")
 
@@ -12,6 +12,40 @@ Section:NewSlider("jumppower", "how high you can jump", 500, 16, function(s) -- 
 end)
 
 Section:NewButton("Keyboard for mobile", "Script", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/WinterDinder/56-Clubs-Prison-Life-REMASTERED-SCRIPT/main/Main", true))()
+    loadstring(game:HttpGet("https://gist.githubusercontent.com/RedZenXYZ/4d80bfd70ee27000660e4bfa7509c667/raw/da903c570249ab3c0c1a74f3467260972c3d87e6/KeyBoard%2520From%2520Ohio%2520Fr%2520Fr"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Nameless admin", "Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))();
+    print("Clicked")
+end)
+
+Section:NewButton("Infinite jump", "jump", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/b6EaD89h"))();
+    print("Clicked")
+end)
+
+local Tab = Window:NewTab("Other scripts")
+local Section = Tab:NewSection("more")
+
+Section:NewButton("(E to use) Aimbot", "press E", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/khSUjZP1'))()
+    print("Clicked")
+end)
+
+Section:NewButton("Spectator", "see others", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/icUfEMQG'))()
+    print("Clicked")
+end)
+
+
+Section:NewButton("Fly GUI", "fly. bzzz", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Pro69Yes/sussy-Script/main/SecuredFlyGuiv3.lua'))()
+    print("Clicked")
+end)
+
+Section:NewButton("prison life", "Tbao", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaohubPrisonLife"))()
     print("Clicked")
 end)

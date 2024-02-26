@@ -64,6 +64,22 @@ Section:NewButton("ESP", "ESP", function()
 end)
 
 
+Section:NewButton("Crosshair", "crosshair", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/Pyv4c4Hv", true))()
+
+    print("Clicked")
+end)
+
+
+Section:NewButton("RTX", "ps4 ahh fans", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/1j640U0R", true))()
+
+
+    print("Clicked")
+end)
+
+
+
 
 
 
